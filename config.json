@@ -1,0 +1,14 @@
+{
+  "customizations": {
+    "user": [
+      {
+        "name": "admin",
+        "password": "Passw0rd",
+        "groups": ["admin"]
+      }
+    ],
+    "kernel": {
+      "append": "fips=1"
+    }
+  }
+}
